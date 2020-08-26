@@ -16,7 +16,7 @@ eureka:
   client:
     register-with-eureka: false #false表示不将自己注入eureka中
     fetch-registry: false #false表示自己不从eureka中获取服务注册信息
-	#eureka客户端与eureka服务顿的交互地址，集群版配置对方的地址，单机版配置自己的地址（如果不配置则默认采用8761端口）
+    #eureka客户端与eureka服务顿的交互地址，集群版配置对方的地址，单机版配置自己的地址（如果不配置则默认采用8761端口）
     service-url:
       defaultZone: http://eureka6001.com:6001/eureka/	
   server:
@@ -35,7 +35,7 @@ eureka:
   client:
     register-with-eureka: false #false表示不将自己注入eureka中
     fetch-registry: false #false表示自己不从eureka中获取服务注册信息
-	#eureka客户端与eureka服务顿的交互地址，集群版配置对方的地址，单机版配置自己的地址（如果不配置则默认采用8761端口）
+    #eureka客户端与eureka服务顿的交互地址，集群版配置对方的地址，单机版配置自己的地址（如果不配置则默认采用8761端口）
     service-url:
       defaultZone: http://eureka6001.com:6001/eureka/	
   server:
